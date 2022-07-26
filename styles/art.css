@@ -1,0 +1,108 @@
+
+#art-gallery-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 13px;
+  margin: 40px;
+}
+
+.gallery-pieces-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background-color: rgb(199, 237, 237);
+  border-radius: 18px;
+}
+
+.gallery-pieces-div .title-art-div p {
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+.art-name {
+  color: rgb(24, 164, 152);
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+.gallery-pieces-div .title-art-div .purchased {
+  display: flex;
+  align-items: baseline;
+}
+
+.purchased .price {
+  font-size: 28px;
+}
+
+.purchased .one {
+  color: rgb(170, 170, 170);
+  font-size: 14px;
+}
+
+.art-photo {
+  width: 100%;
+  height: 484px;
+  object-fit: cover;
+}
+
+.description-div {
+  padding-left: 15px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.full-description {
+  color: rgb(79, 87, 91);
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 18px;
+  margin-top: 20px;
+}
+
+.buttons-div button {
+  color: rgb(57, 57, 57);
+  margin-left: 10px;
+  font-size: 18px;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.23s;
+  background-color: rgb(199, 237, 237);
+}
+
+.buttons-div .buy-button {
+  font-weight: 500;
+}
+
+.buttons-div .buy-button:hover {
+  color: white;
+  background-color: blueviolet;
+  box-shadow: 3px 2px 4px rgb(64, 58, 70);
+  transform: translate(-5px, -3px);
+}
+
+.buttons-div .buy-button:active {
+  background-color: rgb(94, 40, 145);
+  box-shadow: none;
+  transform: translate(0, 0); 
+}
+
+.buttons-div .reserve-button:hover {
+  color: white;
+  background-color: rgb(249, 131, 239);
+  box-shadow: -3px 3px 6px rgb(64, 58, 70);
+  transform: translate(3px, -5px);
+}
+
+.buttons-div .reserve-button:active {
+  background-color: rgb(199, 82, 189);
+  box-shadow: none;
+  transform: translate(0, 0); 
+}

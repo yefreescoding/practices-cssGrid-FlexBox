@@ -1,0 +1,74 @@
+
+#main-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.subtitle-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 900px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title-div {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.title-div p {
+  color: rgb(28, 28, 28);
+  font-size: 33px;
+  width: 730px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 45px;
+}
+
+.subtitle-div .div1-title {
+  font-size: 16px;
+}
+
+.subtitle-div .artwork {
+  color: rgb(28, 28, 28);
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitle-div .artwork span {
+  color: rgb(0, 188, 181);
+}
+
+.subtitle-div p {
+  color: grey;
+  margin-top: 0px;
+}
+
+.button-main button {
+  margin-left: 3px;
+  padding: 8px 16px;
+  background-color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.34s;
+}
+
+.button-main button:hover {
+  color: blueviolet;
+  box-shadow: 0 4px 22px -8px blueviolet;
+  transform: translateY(-3px);
+}
+
+.button-main .gallery:hover {
+  color: rgb(0, 162, 255);
+  box-shadow: 0 4px 22px -8px rgb(0, 162, 255);
+  transform: translateY(-3px);
+}
